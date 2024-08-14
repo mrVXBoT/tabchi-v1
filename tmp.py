@@ -94,7 +94,7 @@ async def new_message_handler(client, message):
 •|🎗️|•  CPU Usage:﹝ {psutil.cpu_percent(4)}%﹞
  ┈┅┅┅┈ 𖣔 ┈┅┅┅┈ 
  
-  𓏺 Bʏ ⌯ @VX_org 𓏺
+  𓏺 Bʏ ⌯ @KoxVX 𓏺
 """
 
     await message.reply(txt, quote=True)
@@ -323,7 +323,7 @@ async def new_message_handler(client, message):
 🎖️ جوین در لینکدونی ها
 
  ┈┅┅┅┅┅┅┈
- ❈ **By : @VX_org ▪️
+ ❈ **By : @KoxVX ▪️
   ┈┅┅┅┅┅┅┈
 """
 
@@ -382,7 +382,7 @@ async def new_message_handler(client, message):
 ❈ Number of saved links :   `{len(datas['saved_links'])}`
  ┈┅┅┅┈ ✿ ┈┅┅┅┈ 
  
- 𓏺 Bʏ ⌯ @VX_org 𓏺
+ 𓏺 Bʏ ⌯ @koxVX 𓏺
 """
 
 
