@@ -24,13 +24,13 @@ app = Client("session_file", api_id=api_id, api_hash=hash_id)
 # |========> Global variables <========|
 
 # آیدی عددی ادمین اولیه رو اینجا قرار بده
-main_admin_id = 6663948368
+main_admin_id = admin-id
 
 # لیست لینکدونی ها را اینجا قرار بده
 linkdoni_list = ["@Link_Akzni"]
 
 # لیست پیام های پیام خودکار را اینجا قرار بده میتونید هر چقد که میخواید اضافه کنید. ","," با اینا.
-auto_chat_texts = ["هعی"]
+auto_chat_texts = ["add-your-txt"]
 
 auto_forward_message = None
 
@@ -46,15 +46,15 @@ check = ConfigAcc.getByQuery({'main_admin_id': main_admin_id})
 
 # Keep default config
 default_config = {
-    'admin_list': [6663948368],
-    'ignore_pvs': [6663948368],
+    'admin_list': [admin-id],
+    'ignore_pvs': [admin-id],
     'saved_links': [],
-    'secretary_text': "VX",
+    'secretary_text': "add-your-txt",
     'auto_chat': {'status': 1, 'time': 550},
     'auto_join': 1,
     'auto_clear': 1,
     'save_links': 1,
-    'main_admin_id': 6663948368
+    'main_admin_id': admin-id
 }
 
 # Add account default config to config.json if it not exists
